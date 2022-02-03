@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family:'Work Sans', Arial, Helvetica, sans-serif;
+        /*Medidas Absolutas
+       cm, mm, in, px, pt, pc
+
+        Medidas relativas
+        'em' , ex, rem, vw, vh, %
+        '16px' geralmente = 1em
+        */
+
+       font-size: 1em ;
+        }
+        /* 16px geralmente = 1em/*
+       /*italico*/
+       /* weight width height*/
+       /*peso largura altura tradução*/
+
+       /* lighter normal bold bolder*/
+       /*font-style-> fonte-weight->
+
+
+       ao invés de fazer assim   
+       fonte-size->font-family
+       font-family: 'Work Sans', sans-serif;
+       font-weight: bolder;
+       font-size: 3em;
+       font-style: italic;
+       fazer assim como esta embaixo NA ORDEM de
+       shorthand
+       */
+
+      h1 {
+          font: italic bolder 3em 'Work Sans', sans-serif;
+
+          h2 {
+              font: bold 2em 'Work Sans', sans-serif;
+          }
+      }
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam dolorem, nisi exercitationem cumque voluptates illum quis ad, quibusdam architecto ut, a repellendus reiciendis deleniti quo aspernatur cum cupiditate harum laborum!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis laboriosam cumque sit nam soluta recusandae error minus quasi ducimus dolorum autem tempora, placeat quam odit molestias suscipit necessitatibus blanditiis ipsa?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas fugiat repellat ipsum reprehenderit at sapiente enim minima adipisci officiis, aliquam atque ea quo ullam perspiciatis molestias quibusdam quaerat aperiam porro.</p>
+</body>
+</html>
